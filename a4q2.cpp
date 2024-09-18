@@ -10,9 +10,8 @@ std::cout << str2;
 }
 //Here srt1 is pointer to the constant string "We love C++ programming" , str2 is an array of 100 characters and pointer p points to the start of array str2.
 // In while loop *p++ = *str1++ copies the current pointed character of str1 to str2 via p.
-//*p dereferences the pointer p ,pointing to str2,and p++ advances the pointer to the next position.
-//Similarly *str1 dereferences str1 and str1++ advances the pointer to the next position.
-//The post-increment operator is used here such that pointers are incremented after assignment.
+//*p dereferences the pointer p ,pointing to str2,and p++ moves the pointer to the next position.
+//Similarly *str1 dereferences str1 and str1++ moves the pointer to the next position.
 //The while loop continues until the null character ('\0') is copied from str1 to str2.
 //Hence through this loop the whole string of str1 is copied to str2.
 //Thus as output where we print str2 we get "We love C++ programming".
